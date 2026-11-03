@@ -1,0 +1,20 @@
+# Never commit participant data
+data/
+datos*/
+WESAD/
+*.pkl
+*.zip
+results/*.csv
+!results/wesad_results.csv
+!results/wesad_hr_audit.csv
+!results/wesad_ablation.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.pytest_cache/
+
+# OS
+.DS_Store
